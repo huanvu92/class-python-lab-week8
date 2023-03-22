@@ -9,6 +9,12 @@ def foo(num):
     """
     # students should write code here
 
+    return 3*num + 10
+for num in range(5):
+    print(foo(num))
+
+
+
 
 def bar(first, second, third):
     """
