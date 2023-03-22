@@ -13,15 +13,19 @@ def foo(num):
 for num in range(5):
     print(foo(num))
 
-
-
-
 def bar(first, second, third):
     """
      Create a function bar that takes 3 input arguments (first, second, and third)
      and returns a list containing the input values in a sorted list.
     """
     # students should write code here
+
+    lst = [first, second, third]
+    lst.sort()
+    return lst
+
+result = bar("Lupita", "Jalen", "Apple")
+print(result)
 
 
 # students should write code to run foo and bar here
